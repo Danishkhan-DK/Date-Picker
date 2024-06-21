@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Picker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="date-picker" id="date-picker">
+        <div class="input-container">
+            <input type="text" id="date-input" placeholder="Pick a date" readonly>
+            <span class="calendar-icon">&#128197;</span> 
+        </div>
+        <div class="calendar" id="calendar">
+            <div class="calendar-header">
+                <div class="dropdown-container">
+                    <select id="month-year-select">
+                       
+                    </select>
+                    <span class="dropdown-icon">&#9660;</span>
+                </div>
+                <div class="nav-buttons">
+                    <button id="prev-month">&lt;</button>
+                    <button id="next-month">&gt;</button>
+                </div>
+            </div>
+            <div class="calendar-body">
+                <div class="calendar-week-days">
+                    <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+                </div>
+                <hr>
+                <div class="calendar-month-name" id="calendar-month-name">JUN</div>
+                <div class="calendar-days" id="calendar-days">
+                    
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
